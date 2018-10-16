@@ -15,7 +15,7 @@ public class Lab7Validator {
 		String userEmail = Validator.getStringMatchingRegex(scan, "Please enter an email: ",
 				"^([_a-zA-Z0-9-]+(\\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*(\\.[a-zA-Z]{1,6}))?$");
 
-		String userDate = Validator.getStringMatchingRegex(scan, "Please enter a date: ", "\\d{2}/\\d(2}/\\d{4}");
+		String userDate = Validator.getStringMatchingRegex(scan, "Please enter a date: ", "^\\d{2}/\\d(2}/\\d{4}$");
 
 	}
 
